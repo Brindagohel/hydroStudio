@@ -1,0 +1,21 @@
+# secrets / local config
+.env
+*.env
+!.env.example
+
+# python
+__pycache__/
+*.pyc
+.pytest_cache/
+venv/
+.venv/
+
+# node
+node_modules/
+frontend/dist/
+
+# runtime files
+uploads/*
+!uploads/.gitkeep
+models/*.pt
+models/*.onnx
